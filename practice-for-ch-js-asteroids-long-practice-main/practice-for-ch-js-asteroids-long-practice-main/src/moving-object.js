@@ -5,6 +5,14 @@ class MovingObject {
         this.radius = args[radius];
         this.color = args[color];
     }
+
+    draw(ctx) {
+        c
+    }
+    
+    move() {
+        this.pos += this.vel 
+    }
 }
 
 export default MovingObject;
